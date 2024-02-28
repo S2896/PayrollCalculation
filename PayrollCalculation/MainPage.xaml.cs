@@ -2,24 +2,24 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private async void NormalClassRegistration_Clicked(object sender, EventArgs e)
         {
-            count++;
+            await Navigation.PushAsync(new NormalClassRegistrationPage());
+        }
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+        private async void Calendar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Calendar_ClickedPage());
+        }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        private async void Salary_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Salary_ClickedPage());
         }
     }
-
 }

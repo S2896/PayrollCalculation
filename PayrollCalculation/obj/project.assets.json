@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0-android34.0": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -444,6 +460,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -2210,6 +2243,22 @@
       }
     },
     "net8.0-android34.0/android-arm": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -2652,6 +2701,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -4418,6 +4484,22 @@
       }
     },
     "net8.0-android34.0/android-arm64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -4860,6 +4942,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -6626,6 +6725,22 @@
       }
     },
     "net8.0-android34.0/android-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -7068,6 +7183,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -8834,6 +8966,22 @@
       }
     },
     "net8.0-android34.0/android-x86": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -9276,6 +9424,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -11042,6 +11207,22 @@
       }
     },
     "net8.0-android34.0/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -11484,6 +11665,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -13250,6 +13448,22 @@
       }
     },
     "net8.0-android34.0/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -13692,6 +13906,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -15458,6 +15689,22 @@
       }
     },
     "net8.0-android34.0/win10-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -15900,6 +16147,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -17666,6 +17930,22 @@
       }
     },
     "net8.0-ios17.2": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -18084,10 +18364,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-ios17.2/android-arm": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -18506,10 +18815,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-ios17.2/android-arm64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -18928,10 +19266,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-ios17.2/android-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -19350,10 +19717,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-ios17.2/android-x86": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -19772,10 +20168,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-ios17.2/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20194,10 +20619,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-ios17.2/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20616,10 +21070,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-ios17.2/win10-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -21039,9 +21522,38 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.2": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -21460,10 +21972,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-maccatalyst17.2/android-arm": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -21882,10 +22423,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-maccatalyst17.2/android-arm64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -22304,10 +22874,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-maccatalyst17.2/android-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -22726,10 +23325,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-maccatalyst17.2/android-x86": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23148,10 +23776,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-maccatalyst17.2/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23570,10 +24227,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-maccatalyst17.2/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23992,10 +24678,39 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-maccatalyst17.2/win10-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -24415,9 +25130,38 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -24980,9 +25724,38 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -25516,10 +26289,39 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-windows10.0.19041/android-arm64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -26053,10 +26855,39 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -26590,10 +27421,39 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-windows10.0.19041/android-x86": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27127,10 +27987,39 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27664,10 +28553,39 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -28202,9 +29120,38 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/win10-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -28745,10 +29692,54 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Plugin.Maui.Calendar/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.6"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "sha512": "r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
     "GoogleGson/2.10.1.4": {
       "sha512": "L1vdbwbQzvKUoUGiMpMoJG5fqfLXaP6zMy1a26AYJQJSQKUO7Ojr2U5BAmgQoRxQ8J2GDjBfnfgnrsnorb4y5Q==",
       "type": "package",
@@ -30867,6 +31858,25 @@
         "tools/x86/GenXbf.dll"
       ]
     },
+    "Plugin.Maui.Calendar/1.1.4": {
+      "sha512": "+kkAGZF7zxgHHhGlP0Sz9c2lIA1mvZDvdu36x27MmB4m7SMZXEWgDO/TFFopHOZEEGpSIr6rfU7oU4+xy2eKZw==",
+      "type": "package",
+      "path": "plugin.maui.calendar/1.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0-android34.0/Plugin.Maui.Calendar.dll",
+        "lib/net8.0-android34.0/Plugin.Maui.Calendar.xml",
+        "lib/net8.0-ios17.2/Plugin.Maui.Calendar.dll",
+        "lib/net8.0-maccatalyst17.2/Plugin.Maui.Calendar.dll",
+        "lib/net8.0-windows10.0.19041/Plugin.Maui.Calendar.dll",
+        "lib/net8.0/Plugin.Maui.Calendar.dll",
+        "nuget.png",
+        "plugin.maui.calendar.1.1.4.nupkg.sha512",
+        "plugin.maui.calendar.nuspec"
+      ]
+    },
     "Xamarin.Android.Glide/4.15.1.2": {
       "sha512": "DcekP+BXm4jFMV7zjHEltj01uiXcItq1kjGa79pj/Vx1rk3Ac2VXdmwGw06HXDP8n2XZsDh8dAoSI48G4KODRA==",
       "type": "package",
@@ -32910,24 +33920,28 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.6",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.2"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.2",
+      "Plugin.Maui.Calendar >= 1.1.4"
     ],
     "net8.0-ios17.2": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.6",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.2"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.2",
+      "Plugin.Maui.Calendar >= 1.1.4"
     ],
     "net8.0-maccatalyst17.2": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.6",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.2"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.2",
+      "Plugin.Maui.Calendar >= 1.1.4"
     ],
     "net8.0-windows10.0.19041": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.6",
-      "Microsoft.Maui.Controls.Compatibility >= 8.0.6"
+      "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
+      "Plugin.Maui.Calendar >= 1.1.4"
     ]
   },
   "packageFolders": {
@@ -33013,6 +34027,10 @@
             "target": "Package",
             "version": "[8.0.2, )",
             "autoReferenced": true
+          },
+          "Plugin.Maui.Calendar": {
+            "target": "Package",
+            "version": "[1.1.4, )"
           }
         },
         "imports": [
@@ -33056,6 +34074,10 @@
             "target": "Package",
             "version": "[8.0.2, )",
             "autoReferenced": true
+          },
+          "Plugin.Maui.Calendar": {
+            "target": "Package",
+            "version": "[1.1.4, )"
           }
         },
         "imports": [
@@ -33099,6 +34121,10 @@
             "target": "Package",
             "version": "[8.0.2, )",
             "autoReferenced": true
+          },
+          "Plugin.Maui.Calendar": {
+            "target": "Package",
+            "version": "[1.1.4, )"
           }
         },
         "imports": [
@@ -33137,6 +34163,10 @@
           "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[8.0.6, )"
+          },
+          "Plugin.Maui.Calendar": {
+            "target": "Package",
+            "version": "[1.1.4, )"
           }
         },
         "imports": [
